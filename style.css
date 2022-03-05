@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/backinform.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px ;
+    text-align: right;
+    height: 17px;
+}
+
+.active{
+    background-color: orange;
+    color: black;
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    transition: 0.6s ease;
+}
+
+a:hover{
+    color: black;
+    background-color: orange;
+}
+
+.content{
+    width: 80%;
+    margin: 0px 10%;
+    position: absolute;
+    margin-top: 280px;
+    transform: translateY(-50);
+    text-align: center;
+    color: black;
+}
+
+.content h1{
+    font-family: Century Gothic;
+    font-size: 32px;
+    color: white;
+}
+
+button{
+    width: 160px;
+    padding: 0px auto;
+    text-align: center;
+    margin: 30px 10px;
+    border-radius: 25px;
+    font-weight:bold;
+    border: 1px solid white;
+    cursor: pointer;
+    opacity: 70%;
+    height: 35px;
+}
+
+button:hover{
+     background-color: white;
+     color: black;
+     opacity: 90%;
+}
+
+@media (max-width: 720px){
+    .content{
+        margin-top: 400px;         
+    }
+    a{
+        padding: 10px 15px;
+
+    }
+}
+

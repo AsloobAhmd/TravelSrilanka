@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/provincesbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px ;
+    text-align: right;
+    height: 17px;
+}
+
+.navbar .active{
+    background-color: orange;
+    color: black;
+}
+
+
+.navbar a { 
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    transition: 0.6s ease;
+}
+
+.navbar a:hover{
+    color: black;
+    background-color: orange;
+}
+
+.content {
+    margin-top: 40px;
+    height: 80%;
+    width: 100%; 
+}
+
+.writing {
+    height: 300px;
+    width: 450px;
+    margin: 120px 40px;
+    float: left;
+    color: #fff;
+}
+
+.prov {
+    height: 98%;
+    width: 62%;
+    margin: 2px 20px;
+    float: right;
+    position: relative;
+}
+
+.writing h1{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 70px;
+}
+
+.writing p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 260px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;  
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    position: relative;
+}
+
+.card1 {
+    background-image: url(images/card-pic-central.jpg);
+}
+
+.card2 {
+    background-image: url(images/card-pic-east.jpg);
+}
+
+.card3 {
+    background-image: url(images/card-pic-eastern.jpg);
+}
+
+.card4 {
+    background-image: url(images/card-pic-west.jpg);
+}
+
+.card5 {
+    background-image: url(images/card-pic-northcentral.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card .detail1 {
+    height: 100%;
+    width: 100%;
+}
+
+.card .detail1 a{
+    text-decoration: none;
+}
+
+.card .detail1 a h5 {
+    width: 240px;
+    height: 260px;
+    color: white;
+    padding: 10px 10px;
+    text-shadow: gray;
+}
+
+@media (max-width: 720px){
+    .content{
+        margin-top: 30px;         
+    }
+    .navbar a{
+        padding: 10px 13px;
+    }
+    .content{
+        height: 60%;
+        margin-top: 0px;
+    }
+    .prov{
+        height: 50%;
+        width: 35%;
+        display: flex;
+        float: left;
+    }
+    .writing {
+        height: 150px;
+    }
+    .card {
+        height: 100px;
+        width: 80px;
+    }
+    .card .detail1 {
+        height: 100px;
+        width: 40px;
+    }
+    .card .detail1 a h5{
+        height: 0.2em;
+        width: 0.2em;
+        padding: 0 0;
+        color: black;
+    }
+}
+
+
