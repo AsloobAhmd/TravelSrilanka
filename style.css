@@ -70,14 +70,3 @@ button:hover{
      color: black;
      opacity: 90%;
 }
-
-@media (max-width: 720px){
-    .content{
-        margin-top: 400px;         
-    }
-    a{
-        padding: 10px 15px;
-
-    }
-}
-
