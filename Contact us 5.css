@@ -141,29 +141,3 @@ form {
     padding: 10px;
     font-size: 18px;
 }
-
-@media (max-width: 720px){
-    .content{
-        margin-top: 110px;  
-        height: 450px;       
-    }
-    a{
-        padding: 10px 12px;
-    }
-    .header {
-        width: 80%;
-        height: 70px;
-    }
-    .content{
-        width: 90%;
-    }
-    .contactinfo{
-        width: 45%;
-        margin: 0;
-    }
-    .contactform {
-        width: 45%;
-        margin: 0;
-
-    }
-}
