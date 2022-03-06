@@ -63,16 +63,3 @@ a:hover{
     background-color: orange;
     color: black;
 }
-
-
-@media (max-width: 720px){
-    .content{
-        margin-top: 300px;         
-    }
-    a{
-        padding: 10px 13px;
-
-    }
-}
-
-
